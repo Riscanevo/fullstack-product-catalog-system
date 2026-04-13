@@ -19,7 +19,7 @@ El proyecto esta dividido en dos aplicaciones desacopladas:
 
 Capacidades principales:
 
-- Login con usuario y contrasena.
+- Login con usuario y contraseña.
 - Emision y validacion de token JWT.
 - Rutas protegidas por middleware.
 - CRUD completo de productos.
