@@ -4,7 +4,7 @@ Implementacion fullstack de una API REST de productos con autenticacion JWT y un
 
 ---
 
-## 1) Resumen 
+##  Resumen 
 
 El proyecto esta dividido en dos aplicaciones desacopladas:
 
@@ -24,7 +24,7 @@ Capacidades principales:
 
 ---
 
-## 2) Arquitectura General
+##  Arquitectura General
 
 ```text
 [ React + Vite SPA ]  <----HTTP JSON---->  [ Laravel API ]  <---->  [ MySQL ]
@@ -39,7 +39,7 @@ Principio aplicado: separacion de responsabilidades.
 
 ---
 
-## 3) Estructura del Repositorio
+##  Estructura del Repositorio
 
 ```text
 Parcial_Desarrollo_Avanzado_App/
@@ -65,7 +65,7 @@ frontend-productos/src/
 
 ---
 
-## 4) Stack Tecnologico
+##  Stack Tecnologico
 
 Backend:
 
@@ -90,7 +90,7 @@ Infraestructura:
 
 ---
 
-## 5) Requisitos Previos
+##  Requisitos Previos
 
 Instalar en tu maquina:
 
@@ -104,9 +104,9 @@ Instalar en tu maquina:
 
 ---
 
-## 6) Configuracion Rapida (Local)
+##  Configuracion Rapida (Local)
 
-### 6.1 Backend
+###  Backend
 
 Ubicacion: backend-productos-api
 
@@ -167,7 +167,7 @@ API disponible en:
 - http://127.0.0.1:8000
 - Base API: http://127.0.0.1:8000/api
 
-### 6.2 Frontend
+###  Frontend
 
 Ubicacion: frontend-productos
 
@@ -207,7 +207,7 @@ Frontend disponible en:
 
 ---
 
-## 7) Credenciales de Prueba
+##  Credenciales de Prueba
 
 Cargadas por seeders:
 
@@ -216,7 +216,7 @@ Cargadas por seeders:
 
 ---
 
-## 8) Endpoints Principales
+##  Endpoints Principales
 
 Publico:
 
@@ -247,7 +247,7 @@ Authorization: Bearer <token>
 
 ---
 
-## 9) Flujo Funcional Esperado
+##  Flujo Funcional Esperado
 
 1. Login con admin/admin123.
 2. Guardar token recibido.
@@ -260,7 +260,7 @@ Authorization: Bearer <token>
 
 ---
 
-## 10) Docker (Frontend)
+##  Docker (Frontend)
 
 ### Desarrollo con Docker
 
@@ -284,7 +284,7 @@ docker compose up frontend-prod --build
 
 ---
 
-## 11) Buenas Practicas Aplicadas
+##  Buenas Practicas Aplicadas
 
 - Arquitectura modular por dominio (auth y products).
 - Cliente HTTP centralizado con interceptores.
@@ -298,7 +298,7 @@ docker compose up frontend-prod --build
 
 ---
 
-## 12) Scripts Utiles
+##  Scripts Utiles
 
 Frontend:
 
@@ -320,7 +320,7 @@ php artisan route:list
 
 ---
 
-## 13) Solucion de Problemas Comunes
+##  Solucion de Problemas Comunes
 
 1. Error de conexion a MySQL:
 
@@ -347,7 +347,7 @@ php artisan config:clear
 
 ---
 
-## 14) Roadmap Sugerido
+##  Roadmap Sugerido
 
 - Estandarizar formato unico de respuestas (data/error/code/message).
 - Agregar tests automáticos (Feature tests Laravel y unit tests frontend).
@@ -357,6 +357,6 @@ php artisan config:clear
 
 ---
 
-## 15) Autor
+##  Autor
 
 Proyecto desarrollado para practica y entrega de parcial en Desarrollo Avanzado de App en Red.
